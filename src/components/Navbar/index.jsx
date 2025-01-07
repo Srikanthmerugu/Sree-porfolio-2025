@@ -83,7 +83,7 @@ const Navbar = () => {
          <button className='btn btn__primary'>Hire Me <FaArrowUpRightFromSquare/></button>
          <FaBarsStaggered className="menu" onClick={()=>setShowSidebar(!showSidebar)}/>
       </div>
-    </nav>
+    </nav> 
   )
 }
 

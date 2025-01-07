@@ -220,17 +220,17 @@ export const experience = [
                 level:"Experienced",
             },
             {
-                skill:"Sketch",
+                skill:"Wireframes",
                 level:"Intermediate",
             },
             {
-                skill:"XD",
+                skill:"Photoshop",
                 level:"Intermediate",
             },
         ]
     },
     {
-        title:"Frontend Development",
+        title:"Languages & Frameworks",
         data:[
             {
                 skill:"HTML",
@@ -253,12 +253,16 @@ export const experience = [
                 level:"Experienced",
             },
             {
-                skill:"React",
+                skill:"React.js",
+                level:"Experienced",
+            },
+            {
+                skill:"Next.js",
                 level:"Experienced",
             },
             {
                 skill:"React Native",
-                level:"Experienced",
+                level:"Intermediate",
             },
         ]
     },
@@ -267,23 +271,23 @@ export const experience = [
         data:[
             {
                 skill:"Node JS",
-                level:"Experienced",
+                level:"Intermediate",
             },
             {
                 skill:"MangoDB",
                 level:"Intermediate",
             },
-            {
-                skill:"PHP",
-                level:"Experienced",
-            },
-            {
-                skill:"Python",
-                level:"Intermediate",
-            },
+            // {
+            //     skill:"PHP",
+            //     level:"Experienced",
+            // },
+            // {
+            //     skill:"Python",
+            //     level:"Intermediate",
+            // },
             {
                 skill:"MySQL",
-                level:"Experienced",
+                level:"Intermediate",
             },
         ]
     },
