@@ -4,6 +4,7 @@ import {profile1} from "../../images"
 import Facts from './Facts'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react';
+import { MyResume } from '../../images'
 
 const Header = () => {
   const container = useRef(null)
@@ -66,7 +67,11 @@ const Header = () => {
             </div>
             <Facts/>
             <div className="header__info__bottom">
-               <button className="btn">Download CV</button>
+               {/* <button className="btn" >Download CV</button> */}
+               <a href={MyResume} download="Srikanth_Merugu_CV" className="btn btn-resume">
+  Download CV
+</a>
+
                <a href="mailto:srikanthmerugu04@gmail.com" className="btn">Email Me</a>
             </div>
           </div>

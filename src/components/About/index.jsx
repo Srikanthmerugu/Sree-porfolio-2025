@@ -32,13 +32,13 @@ const About = () => {
         </div>
         <div className="section__header">
           <h2 className="primary__title">About Me</h2>
-          <h1 className="title">I am <span className="color__primary">Emmanuel Eze</span></h1>
+          <h1 className="title">I am <span className="color__primary">Srikanth Merugu</span></h1>
           <p className="text__muted description">
-             Experienced Full Stack Developer with a passion for creating dynamic, intuitive, and
-             responsive applications. Proficient in multiple programming languages and frameworks, 
-             as well as database design and management. Strong problem-solving and analytical skills, 
-             and a track record of delivering high-quality code on time and on budget.
-          </p>
+  Frontend Developer with a proven ability to craft responsive, user-friendly, and high-performance web applications. 
+  Skilled in modern web technologies, including React.js and Next.js, with a focus on delivering seamless user experiences. 
+  Passionate about clean code, collaboration, and staying updated with the latest trends in web development.
+</p>
+
         </div>
       </div>
     </section>

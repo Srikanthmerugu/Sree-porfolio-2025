@@ -10,9 +10,9 @@ const Facts = () => {
     const [clients,setClients] = useState(0)
     useEffect(()=>{
         const timeoutId = setTimeout(()=>{
-            setExperience(10)
-            setProjects(150);
-            setClients(2.50);
+            setExperience(2)
+            setProjects(7);
+            setClients(10);
         },3000)
         return () =>{
             clearTimeout(timeoutId)
@@ -58,7 +58,7 @@ const Facts = () => {
           <Odometer
            value={clients}
           />
-          <span className="indicator">K</span>
+          <span className="indicator">+</span>
         </div>
         <p className="name">Satisfied Clients</p>
       </div>

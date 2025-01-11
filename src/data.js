@@ -225,7 +225,7 @@ export const experience = [
             },
             {
                 skill:"Photoshop",
-                level:"Intermediate",
+                level:"Beginner",
             },
         ]
     },
@@ -264,6 +264,15 @@ export const experience = [
                 skill:"React Native",
                 level:"Intermediate",
             },
+            
+            {
+              skill:"GSAP",
+              level:"Intermediate",
+          },
+            {
+              skill:"Material UI",
+              level:"Intermediate",
+          },
         ]
     },
     {
@@ -271,11 +280,11 @@ export const experience = [
         data:[
             {
                 skill:"Node JS",
-                level:"Intermediate",
+                level:"Beginner",
             },
             {
                 skill:"MangoDB",
-                level:"Intermediate",
+                level:"Beginner",
             },
             // {
             //     skill:"PHP",
@@ -287,7 +296,7 @@ export const experience = [
             // },
             {
                 skill:"MySQL",
-                level:"Intermediate",
+                level:"Beginner",
             },
         ]
     },
