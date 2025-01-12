@@ -51,7 +51,7 @@ const Header = () => {
   },{scope:container})
   return (
     <header id='header' className='blur-effect' ref={container}>
-       <div className="stroke__text intro__text">HELLO</div>
+       {/* <div className="stroke__text intro__text">HELLO</div>   */}
        <div className="section__wrapper header__container">
         <div className="column intro__container blur-effect">
           <div className="header__info">
@@ -61,18 +61,18 @@ const Header = () => {
             <div className="header__info__middle">
                <h1 className="primary__title header__title">I'M A WEB DEVELOPER</h1>
                <p className="text__muted header__description">
-                 I dissect intricate user experience challenges to engineer 
-                 integrity-focused solutions that resonate with billions of users.
+               <strong>     Web Developer & Freelancer </strong> 
+                As a developer and freelancer, I specialize in creating seamless, innovative web experiences. I transform complex challenges into intuitive, user-friendly solutions that deliver value and leave a lasting impact.
                </p>
             </div>
             <Facts/>
             <div className="header__info__bottom">
                {/* <button className="btn" >Download CV</button> */}
                <a href={MyResume} download="Srikanth_Merugu_CV" className="btn btn-resume">
-  Download CV
+  Download CV 
 </a>
 
-               <a href="mailto:srikanthmerugu04@gmail.com" className="btn">Email Me</a>
+               <a href="mailto:srikanthmerugu04@gmail.com" className="btn">Email Me 📩</a>
             </div>
           </div>
         </div> 

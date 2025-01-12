@@ -7,6 +7,7 @@ import {FaArrowUpRightFromSquare,FaBarsStaggered} from "react-icons/fa6"
 import { FaTimes } from 'react-icons/fa';
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react';
+import { NewLogo } from '../../images';
 
 
 const Navbar = () => {
@@ -56,7 +57,8 @@ const Navbar = () => {
         ):""
       }
       <div className="logo__container" onClick={()=>scroll.scrollToTop({duration:500})}>
-        <SiWebmoney/>
+        {/* <SiWebmoney/> */}
+        <img src={NewLogo}  />
       </div>
       <div className={`tab__group ${showSidebar ? 'show':''}`}>
         <span className="icon__container close__btn" onClick={()=>setShowSidebar(!showSidebar)}>

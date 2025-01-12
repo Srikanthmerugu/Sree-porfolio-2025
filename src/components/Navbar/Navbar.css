@@ -5,10 +5,12 @@
     padding: 20px;
     position: relative;
     width: 100%;
+    background-color: var(--color-ui-2);
 }
 
 .navbar__container.visible{
     background: var(--color-ui-2);
+    /* background-color: red; */
     position: sticky;
 }
 
@@ -19,6 +21,10 @@
     gap: 15px;
     cursor: pointer;
     font-size: 35px;
+}
+.logo__container img{
+    width: 200px;
+    height: 50px;
 }
 
 .navbar__container .tab__group{
