@@ -130,6 +130,7 @@ img{
 
 .text__muted{
     color: var(--color-muted);
+    text-align: justify;
 }
 
 .stroke__text{
@@ -239,7 +240,7 @@ img{
 
     .section__header .description{
         margin: auto;
-        text-align: center;
+        text-align: justify;
     }
 
 }

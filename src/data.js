@@ -2,6 +2,7 @@ import {DiReact} from "react-icons/di";
 import {FaNodeJs} from "react-icons/fa";
 import {SiExpress,SiMongodb,SiGreensock,SiTailwindcss,} from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
+import { matchoo } from "./images";
 
 
 import { SiFiverr } from "react-icons/si";
@@ -216,7 +217,7 @@ export const projects = [
   { 
     id: 1,
     title: 'SmartTutor Platform',
-    image: 'https://via.placeholder.com/800x600?text=SmartTutor+Platform',
+    image: matchoo,
     category: "Web",
     data: {
       description: `SmartTutor is an educational platform featuring three modules: Admin, Vendor, and End User. 
@@ -452,24 +453,24 @@ export const experience = [
 
 
 export const socialHandles = [
-  {
-    name:"Fiverr",
-    icon:<SiFiverr/>,
-    link:"",
-  },
+  // {
+  //   name:"Fiverr",
+  //   icon:<SiFiverr/>,
+  //   link:"",
+  // },
   {
     name:"Github",
     icon:<AiFillGithub/>,
-    link:"",
+    link:"https://github.com/Srikanthmerugu",
   },
   {
     name:"LinkedIn",
     icon:<AiFillLinkedin/>,
-    link:"",
+    link:"https://www.linkedin.com/in/srikanth-merugu-9177272b3/",
   },
-  {
-    name:"Youtube",
-    icon:<AiFillYoutube/>,
-    link:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-  },
+  // {
+  //   name:"Youtube",
+  //   icon:<AiFillYoutube/>,
+  //   link:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
+  // },
 ];

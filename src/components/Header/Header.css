@@ -66,10 +66,11 @@
     font-size: 15px;
     font-weight: 500;
     margin: 20px 0;
+    text-align: justify;
 }
 
 #header .header__info__bottom{
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -81,6 +82,8 @@
     position: relative;
     margin: auto;
     overflow: hidden;
+    border-radius: 10px;
+    mix-blend-mode:screen;
 }
 
 #header .profile__photo__container::after{
@@ -97,10 +100,19 @@
 @media (max-width:1100px){
     #header .header__title{
         font-size: 32px;
+
+    }
+    .logo__container img {
+        width: 153px;
+        height: 28px;
     }
 }
 
 @media (max-width:850px){
+    .logo__container img {
+        width: 153px;
+        height: 28px;
+    }
     #header{
         min-height: auto;
     }
