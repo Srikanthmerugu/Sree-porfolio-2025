@@ -3,6 +3,7 @@ import {FaNodeJs} from "react-icons/fa";
 import {SiExpress,SiMongodb,SiGreensock,SiTailwindcss,} from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { matchoo } from "./images";
+import { profile3 } from "./images";
 
 
 import { SiFiverr } from "react-icons/si";
@@ -16,7 +17,7 @@ export const menu = [
     {name:"Services"},
     {name:"Skill"},
     {name:"Projects"},
-    // {name:"Testimonial"},
+    {name:"Testimonial"},
     {name:"Contact"},
 ]
 
@@ -257,7 +258,7 @@ export const projects = [
   {
     id: 2,
     title: 'Career Page Development',
-    image: 'https://via.placeholder.com/800x600?text=Career+Page+Development',
+    image: profile3,
     category: "Web",
     data: {
       description: `A modern career page designed to streamline the job application process. It features an admin 
