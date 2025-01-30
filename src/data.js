@@ -4,6 +4,9 @@ import {SiExpress,SiMongodb,SiGreensock,SiTailwindcss,} from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { matchoo } from "./images";
 import { profile3 } from "./images";
+import { Smartuter } from "./images";
+import { Vetoro } from "./images";
+import { juice } from "./images";
 
 
 import { SiFiverr } from "react-icons/si";
@@ -17,8 +20,8 @@ export const menu = [
     {name:"Services"},
     {name:"Skill"},
     {name:"Projects"},
-    {name:"Testimonial"},
-    {name:"Contact"},
+    // {name:"Testimonial"},
+    // {name:"Contact"},
 ]
 
 
@@ -218,7 +221,7 @@ export const projects = [
   { 
     id: 1,
     title: 'SmartTutor Platform',
-    image: matchoo,
+    image: Smartuter,
     category: "Web",
     data: {
       description: `SmartTutor is an educational platform featuring three modules: Admin, Vendor, and End User. 
@@ -297,7 +300,7 @@ export const projects = [
   {
     id: 3,
     title: 'Tile and Marble Website',
-    image: 'https://via.placeholder.com/800x600?text=Tile+and+Marble+Website',
+    image: Vetoro,
     category: "Web",
     data: {
       description: `An elegant website for a tile and marble business, featuring product showcases, a product carousel, 
@@ -326,7 +329,7 @@ export const projects = [
   {
     id: 4,
     title: 'Juice App Development',
-    image: 'https://via.placeholder.com/800x600?text=Juice+App+Development',
+    image: juice,
     category: "Apps",
     data: {
       description: `A health-focused Juice app designed to address specific health problems such as constipation. 
