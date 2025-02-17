@@ -80,10 +80,10 @@ const Card = (props) => {
                     </div>
                 </div>{/* end stack__container */}
 
-                <div className="button__container">
+                {/* <div className="button__container">
                     <a href={props.demoLink} target='_blank' className='btn btn__primary'>Demo</a>
                     <div className="btn__share"><AiOutlineShareAlt/></div>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
