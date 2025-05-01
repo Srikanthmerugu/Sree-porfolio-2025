@@ -46,7 +46,7 @@ const Card = (props) => {
                         </div>{/* end stack__box__container */}
 
                         {
-                            props.stack.length >4 ?(
+                            props.stack.length >5 ?(
                                 <div className="stack__view__more">
                                     <div className="more__btn" onClick={()=>setOpenStackExpandBar(!openStackExpandBar)}></div>
                                     <div

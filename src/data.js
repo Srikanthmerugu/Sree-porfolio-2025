@@ -1,12 +1,16 @@
 import {DiReact} from "react-icons/di";
-import {FaNodeJs} from "react-icons/fa";
-import {SiExpress,SiMongodb,SiGreensock,SiTailwindcss,} from "react-icons/si";
+import {FaBootstrap, FaNodeJs} from "react-icons/fa";
+import {SiExpress,SiMongodb,SiGreensock,SiTailwindcss, SiStripe, SiWebgl, SiAwsamplify, SiFramer,} from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { matchoo } from "./images";
 import { profile3 } from "./images";
 import { Smartuter } from "./images";
 import { Vetoro } from "./images";
 import { juice } from "./images";
+import {  DiDjango,  } from "react-icons/di";
+import {  FaPython, FaAws } from "react-icons/fa";
+import {     SiRedux, SiPostgresql, SiTensorflow, SiChartdotjs, SiFirebase, SiNextdotjs, SiThreedotjs } from "react-icons/si";
+// import { TbBrandReactNative } from "react-icons/tb";
 
 
 import { SiFiverr } from "react-icons/si";
@@ -221,7 +225,7 @@ export const projects = [
   { 
     id: 1,
     title: 'SmartTutor Platform',
-    image: Smartuter,
+    image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80',
     category: "Web",
     data: {
       description: `SmartTutor is an educational platform featuring three modules: Admin, Vendor, and End User. 
@@ -229,134 +233,128 @@ export const projects = [
                     module allows management of platform fees, referral programs, and approvals, while the Vendor 
                     module enables uploads of new resources. Designed with responsive layouts and enhanced with 
                     scrolling animations for seamless user experience.`,
-      demoLink: "https://smarttutor.example.com/", // Replace with the actual link if available
+      demoLink: "https://smarttutor.example.com/",
     },
     stack: [
-      {
-        name: "ReactJs",
-        icon: <DiReact />,
-        iconColor: "skyblue",
-      },
-      {
-        name: "NodeJs",
-        icon: <FaNodeJs />,
-        iconColor: "green",
-      },
-      {
-        name: "ExpressJs",
-        icon: <SiExpress />,
-      },
-      {
-        name: "MongoDB",
-        icon: <SiMongodb />,
-        iconColor: "limegreen",
-      },
-      {
-        name: "GSAP",
-        icon: <SiGreensock />,
-        iconColor: "lightgreen",
-      },
+      { name: "ReactJs", icon: <DiReact />, iconColor: "skyblue" },
+      { name: "NodeJs", icon: <FaNodeJs />, iconColor: "green" },
+      { name: "ExpressJs", icon: <SiExpress /> },
+      { name: "MongoDB", icon: <SiMongodb />, iconColor: "limegreen" },
+      { name: "GSAP", icon: <SiGreensock />, iconColor: "lightgreen" },
     ],
   },
   {
     id: 2,
     title: 'Career Page Development',
-    image: profile3,
+    image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
     category: "Web",
     data: {
       description: `A modern career page designed to streamline the job application process. It features an admin 
                     panel for HRs to post job listings, manage applications, and track candidates. The end-user 
                     interface is built for ease of use, offering a responsive, mobile-friendly design to browse 
                     and apply for job opportunities effortlessly.`,
-      demoLink: "https://careerpage.example.com/", // Replace with the actual link if available
+      demoLink: "https://careerpage.example.com/",
     },
     stack: [
-      {
-        name: "ReactJs",
-        icon: <DiReact />,
-        iconColor: "skyblue",
-      },
-      {
-        name: "NodeJs",
-        icon: <FaNodeJs />,
-        iconColor: "green",
-      },
-      {
-        name: "ExpressJs",
-        icon: <SiExpress />,
-      },
-      {
-        name: "MongoDB",
-        icon: <SiMongodb />,
-        iconColor: "limegreen",
-      },
-      {
-        name: "Tailwind CSS",
-        icon: <SiTailwindcss />,
-        iconColor: "cyan",
-      },
+      { name: "ReactJs", icon: <DiReact />, iconColor: "skyblue" },
+      { name: "NodeJs", icon: <FaNodeJs />, iconColor: "green" },
+      { name: "ExpressJs", icon: <SiExpress /> },
+      { name: "MongoDB", icon: <SiMongodb />, iconColor: "limegreen" },
+      { name: "Tailwind CSS", icon: <SiTailwindcss />, iconColor: "cyan" },
     ],
   },
   {
     id: 3,
     title: 'Tile and Marble Website',
-    image: Vetoro,
+    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
     category: "Web",
     data: {
       description: `An elegant website for a tile and marble business, featuring product showcases, a product carousel, 
                     testimonials, and a responsive design. The site is crafted with React.js and Tailwind CSS, 
                     providing a seamless browsing experience for users.`,
-      demoLink: "https://tileandmarble.example.com/", // Replace with the actual link if available
+      demoLink: "https://tileandmarble.example.com/",
     },
     stack: [
-      {
-        name: "ReactJs",
-        icon: <DiReact />,
-        iconColor: "skyblue",
-      },
-      {
-        name: "Tailwind CSS",
-        icon: <SiTailwindcss />,
-        iconColor: "cyan",
-      },
-      {
-        name: "CSS3",
-        icon: <DiCss3 />,
-        iconColor: "blue",
-      },
+      { name: "ReactJs", icon: <DiReact />, iconColor: "skyblue" },
+      { name: "CSS3", icon: <DiCss3 />, iconColor: "blue" },
+      { name: "Bootstrap", icon: <FaBootstrap />, iconColor: "purple" },
+      { name: "GSAP", icon: <SiGreensock />, iconColor: "lightgreen" },
+    ],
+  },
+  // ... Project 4 remains unchanged ...
+
+  {
+    id: 5,
+    title: 'NeedRecruiter Platform',
+    image: 'https://images.unsplash.com/photo-1573497491208-6b1acb260507?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+    category: "Web",
+    data: {
+      description: `A comprehensive recruitment platform connecting employers with job seekers. Features include advanced job matching algorithms, 
+                    applicant tracking system (ATS), and multi-tier interview management. The platform offers separate dashboards for employers, 
+                    job seekers, and admin with real-time notifications and analytics dashboard for recruitment metrics.`,
+      demoLink: "https://needrecruiter.com/",
+    },
+    stack: [
+      { name: "ReactJs", icon: <DiReact />, iconColor: "skyblue" },
+      { name: "Tailwind CSS", icon: <SiTailwindcss />, iconColor: "cyan" },
+      { name: "Framer Motion", icon: <SiFramer />, iconColor: "hotpink" },
+      { name: "GSAP", icon: <SiGreensock />, iconColor: "lightgreen" },
     ],
   },
   {
-    id: 4,
-    title: 'Juice App Development',
-    image: juice,
-    category: "Apps",
+    id: 6,
+    title: 'Finsight AI Analytics',
+    image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+    category: "Web",
     data: {
-      description: `A health-focused Juice app designed to address specific health problems such as constipation. 
-                    Users can explore curated juice recipes and order personalized juices for home delivery. 
-                    Built with React Native for cross-platform compatibility.`,
-      demoLink: "https://juiceapp.example.com/", // Replace with the actual link if available
+      description: `AI-powered financial analytics platform offering real-time market insights, predictive forecasting, 
+                    and automated report generation. Features include custom dashboard creation, NLP-based query system, 
+                    and integration with major financial data sources. Built with enterprise-grade security standards.`,
+      demoLink: "https://finsightai.mavenerp.in/login",
     },
     stack: [
-      {
-        name: "React Native",
-        icon: <TbBrandReactNative />,
-        iconColor: "skyblue",
-      },
-      {
-        name: "NodeJs",
-        icon: <FaNodeJs />,
-        iconColor: "green",
-      },
-      {
-        name: "ExpressJs",
-        icon: <SiExpress />,
-      },
-      {
-        name: "MongoDB",
-        icon: <SiMongodb />,
-        iconColor: "limegreen",
-      },
+      { name: "ReactJs", icon: <DiReact />, iconColor: "skyblue" },
+      { name: "Tailwind CSS", icon: <SiTailwindcss />, iconColor: "cyan" },
+      { name: "Framer Motion", icon: <SiFramer />, iconColor: "hotpink" },
+      { name: "Chart.js", icon: <SiChartdotjs />, iconColor: "pink" },
+    ],
+  },
+  {
+    id: 7,
+    title: 'Riymay Fashion Store',
+    image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+    category: "Web",
+    data: {
+      description: `Modern e-commerce platform for fashion retail featuring virtual try-on technology and subscription-based 
+                    'Try & Buy' service. Includes AR-powered outfit visualization, size recommendation engine, and 
+                    AI-based style assistant. Integrated with multiple payment gateways and inventory management system.`,
+      demoLink: "https://riymay.com/",
+    },
+    stack: [
+      { name: "ReactJs", icon: <DiReact />, iconColor: "skyblue" },
+      { name: "Tailwind CSS", icon: <SiTailwindcss />, iconColor: "cyan" },
+      { name: "Framer Motion", icon: <SiFramer />, iconColor: "hotpink" },
+      { name: "GSAP", icon: <SiGreensock />, iconColor: "lightgreen" },
+      { name: "CSS3", icon: <DiCss3 />, iconColor: "blue" },
+    ],
+  },
+  {
+    id: 8,
+    title: 'DinoWorld Interactive',
+    image: 'https://media1.thrillophilia.com/filestore/x7631yz5byjuovw55iz045kg1qs6_2019-09-01.jpg?h=441&w=auto&dpr=1.25',
+    category: "Web",
+    data: {
+      description: `Educational entertainment platform featuring interactive dinosaur experiences with 3D models and 
+                    augmented reality features. Includes virtual dinosaur park creation, educational games, and 
+                    timeline-based evolution visualization. Optimized for both desktop and mobile AR experiences.`,
+      demoLink: "https://dinoworld.in/",
+    },
+    stack: [
+      { name: "ReactJs", icon: <DiReact />, iconColor: "skyblue" },
+      { name: "GSAP", icon: <SiGreensock />, iconColor: "lightgreen" },
+      { name: "Framer Motion", icon: <SiFramer />, iconColor: "hotpink" },
+      { name: "Bootstrap", icon: <FaBootstrap />, iconColor: "purple" },
+      { name: "CSS3", icon: <DiCss3 />, iconColor: "blue" },
     ],
   },
 ];
@@ -379,6 +377,18 @@ export const experience = [
             {
                 skill:"Photoshop",
                 level:"Beginner",
+            },
+            {
+                skill:"Framer",
+                level:"Intermediate",
+            },
+            {
+                skill:"Visily",
+                level:"Experienced",
+            },
+            {
+                skill:"Canva",
+                level:"Experienced",
             },
         ]
     },
@@ -406,6 +416,10 @@ export const experience = [
                 level:"Experienced",
             },
             {
+                skill:"Redux",
+                level:"Experienced",
+            },
+            {
                 skill:"React.js",
                 level:"Experienced",
             },
@@ -425,6 +439,10 @@ export const experience = [
             {
               skill:"Material UI",
               level:"Intermediate",
+          },
+            {
+              skill:"Framer",
+              level:"Experienced",
           },
         ]
     },

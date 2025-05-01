@@ -81,10 +81,10 @@ const Navbar = () => {
             ))
           }
       </div>
-      <div className="nav__buttons__group">
+      {/* <div className="nav__buttons__group">
          <button className='btn btn__primary'>Hire Me <FaArrowUpRightFromSquare/></button>
          <FaBarsStaggered className="menu" onClick={()=>setShowSidebar(!showSidebar)}/>
-      </div>
+      </div> */}
     </nav> 
   )
 }
