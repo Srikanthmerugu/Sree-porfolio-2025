@@ -86,7 +86,7 @@ const Navbar = () => {
          <FaBarsStaggered className="menu" onClick={()=>setShowSidebar(!showSidebar)}/>
       </div> */}
     </nav> 
-  )
+  ) 
 }
 
 export default Navbar
