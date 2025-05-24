@@ -4,4 +4,4 @@ export const sumArray = (arr) =>{
         sum += arr[i];
     }
     return sum;
-}
+} 
