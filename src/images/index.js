@@ -1,4 +1,4 @@
-export {default as profile1} from "./Sree-profile.png"
+export {default as profile1} from "./Sree-profile-main.png"
 // export {default as profile2} from "./profile-2.jpg"
 export {default as profile2} from "./Sree-profile.png"
 export {default as profile3} from "./edulyn.png"

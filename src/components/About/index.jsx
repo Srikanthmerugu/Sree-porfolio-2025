@@ -27,7 +27,7 @@ const About = () => {
       <div className="section__wrapper about__container">
         <div className="me__container blur-effect">
           <div className="photo__container">
-            <img src={profile2} alt="" />
+            <img src={profile2} alt="image"  />
           </div>
         </div>
         <div className="section__header">
